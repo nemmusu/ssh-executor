@@ -18,7 +18,7 @@ pip install paramiko configparser
 
 ## File di configurazione
 
-Il modulo legge un file di configurazione 'config.ini' che deve essere strutturato come segue (si possono aggiungere più server usando questa sintassi):
+Il modulo legge un file di configurazione `config.ini` che deve essere strutturato come segue (si possono aggiungere più server usando questa sintassi):
 
 ```ini
 [configuration]
