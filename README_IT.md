@@ -1,3 +1,9 @@
+# Readme
+
+[Readme: Italiano](./README_IT.md)
+
+[Readme: English](./README.md)
+
 # SSH Executor
 
 Questo è un semplice modulo Python che consente di eseguire comandi SSH su diversi server in parallelo o sequenzialmente. Le credenziali e i comandi da eseguire vengono letti da un file di configurazione.
