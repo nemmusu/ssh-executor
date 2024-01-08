@@ -16,14 +16,6 @@ Il modulo utilizza le librerie `paramiko`, `configparser` e `threading`. Puoi in
 pip install paramiko configparser
 ```
 
-## Uso
-
-Assicurati di aver impostato i parametri del `config.ini` in maniera corretta ed esegui il comando:
-
-```
-python ssh_executor.py
-```
-
 ## File di configurazione
 
 Il modulo legge un file di configurazione 'config.ini' che deve essere strutturato come segue (si possono aggiungere più server usando questa sintassi):
@@ -58,6 +50,14 @@ Le altre sezioni rappresentano i diversi server sui quali eseguire i comandi. Og
 - `port`: la porta per la connessione SSH (opzionale, default è 22).
 - `ip`: l'indirizzo IP del server.
 - `commands`: una lista di comandi separati da virgole da eseguire sul server.
+
+## Uso
+
+Assicurati di aver impostato i parametri del `config.ini` in maniera corretta ed esegui il comando:
+
+```
+python ssh_executor.py
+```
 
 ## Errori
 
